@@ -33,7 +33,7 @@
 				<environment>Sandbox</environment>
 				<uri>https://anypoint.mulesoft.com</uri>;
 				<applicationName>democicd</applicationName>
-				<wrokers>1</wrokers>
+				<workers>1</workers>
 				<workerType>Micro</workerType>
 				</cloudHubDeployment>
 				</configuration>
