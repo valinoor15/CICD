@@ -26,7 +26,26 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+				<muleVersion>${app.runtime}</muleVersion>
+				<username>valinoor18</username>
+				<password>Sahir@12</password>
+				<environment>Sandbox</environment>
+				<uri>https://anypoint.mulesoft.com</uri>;
+				<applicationName>democicd</applicationName>
+				<wrokers>1</wrokers>
+				<workerType>Micro</workerType>
+				</cloudHubDeployment>
 				</configuration>
+				<executions>
+					<execution>
+					<id>deploy</id>
+					<phase>deploy</phase>
+					<goals>
+					<goal>deploy</goal>
+					</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
